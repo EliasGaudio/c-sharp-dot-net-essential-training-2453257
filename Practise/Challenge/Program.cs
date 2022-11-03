@@ -1,12 +1,14 @@
 ﻿String respuesta = "";
 DateTime result;
-DateTime hoy = DateTime.Now;
+DateTime hoy = DateTime.Today;
 
 while (respuesta != "exit")
 {
     Console.WriteLine("Inserte una fecha, por favor.");
     respuesta = Console.ReadLine();
-    // TODO: Use the static class function TryParse to try parsing the dates
+    if (respuesta == "exit"){
+        break;
+    }
     if (DateTime.TryParse(respuesta, out result)){
         if (DateOnly.FromDateTime(result) > DateOnly.FromDateTime(hoy))
         {
