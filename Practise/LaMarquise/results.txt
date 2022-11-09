@@ -1,0 +1,8 @@
+Peso total: 2674311
+Peso Powerpoint: 1403482
+Peso Word: 1196567
+Peso Excel: 74262
+Archivos totales: 12
+Powerpoints: 3
+Words: 5
+Excels: 4
